@@ -6,7 +6,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.1'
-        classpath 'net.wequick.tools.build:gradle-small:1.2.0-beta3'
+        classpath 'net.wequick.tools.build:gradle-small:1.2.0-beta5'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -15,7 +15,7 @@ buildscript {
 apply plugin: 'net.wequick.small'
 
 small {
-    aarVersion = '1.1.0-beta1'
+    aarVersion = '1.2.0-beta5'
     android {
         compileSdkVersion = 25
         buildToolsVersion = "25.0.2"
